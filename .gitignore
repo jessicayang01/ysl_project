@@ -1,9 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+ENV/
+*.log
 
-df
-df_text_cols
+# OS / IDE
+.DS_Store
+.vscode/
 
+# Secrets / Config
+ysl_config.json
+*.key
+*.pem
+*.env.local
 
-df
-df_text_cols
+# Data (原始/中间/导出数据不要入库)
+data/
 *.csv
+*.parquet
+*.pkl
+*.xls
+*.xlsx
 
+# Jupyter
+.jupyter/
+
+# Large local experiment outputs
+df
+df_text_cols
+output/
+results/
+checkpoints/
